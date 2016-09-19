@@ -56,7 +56,7 @@ var App = React.createClass({
         return(
             <div>
                 <CartCounter cartCost={cartCost} cartCounter={cartCounter}/>
-                <h3>Super Awesome Super Simple ReactJs Shopping Application</h3>
+                <h3>Super Simple Super Awesome ReactJs Shopping Application</h3>
                 {movieCards.map(function(movie){
                     return(
                         <MovieCard addToCart={this.addToCart} key={movie.id} movie={movie}/>
