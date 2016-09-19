@@ -1,0 +1,24 @@
+*{
+    font-family: sans-serif;
+}
+
+.container{
+    margin: 10px;
+    width: 100%;
+}
+
+.movieCard{
+    display: inline-block;
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.cartCounter{
+    cursor: pointer;
+    float: right;
+}
+
+.cartCounter :hover{
+    color: gray;
+}
